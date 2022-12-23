@@ -38,6 +38,7 @@
   padding: 0px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 0px;
   max-width: 280px;
 }
 
@@ -52,7 +53,6 @@
   margin-bottom: 0px;
 }
 
-
 .cream::before {
   content: ' ';
   display: block;
@@ -61,8 +61,9 @@
   background-repeat: no-repeat;
   background-position: center;
   height: 200px;
-  border-radius: 100px;
   transform: translateY(-50%);
+  box-shadow: 0px 5.34219px 20.0332px rgba(10, 136, 23, 0.25);
+  border-radius: 100px;
 }
 
 .products__title {
@@ -92,7 +93,7 @@
 }
 
 .coffee {
-  background-color: #EFD478;
+  background-color: #efd478;
 }
 
 .coffee::before {
@@ -108,7 +109,7 @@
 }
 
 .milkshake {
-  background-color: #D6936D;
+  background-color: #d6936d;
 }
 
 .milkshake::before {
